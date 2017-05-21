@@ -1,0 +1,23 @@
+﻿  SDL_Setup.cpp
+  Main.cpp
+  Generating Code...
+  Compiling...
+  Tree.cpp
+  MainCharacter.cpp
+c:\users\abhi\documents\visual studio 2012\projects\tp\tp\maincharacter.cpp(16): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+c:\users\abhi\documents\visual studio 2012\projects\tp\tp\maincharacter.cpp(38): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\users\abhi\documents\visual studio 2012\projects\tp\tp\maincharacter.cpp(87): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+c:\users\abhi\documents\visual studio 2012\projects\tp\tp\maincharacter.cpp(88): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+c:\users\abhi\documents\visual studio 2012\projects\tp\tp\maincharacter.cpp(93): warning C4018: '<' : signed/unsigned mismatch
+c:\users\abhi\documents\visual studio 2012\projects\tp\tp\maincharacter.cpp(96): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+c:\users\abhi\documents\visual studio 2012\projects\tp\tp\maincharacter.cpp(96): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\users\abhi\documents\visual studio 2012\projects\tp\tp\maincharacter.cpp(109): warning C4018: '<' : signed/unsigned mismatch
+c:\users\abhi\documents\visual studio 2012\projects\tp\tp\maincharacter.cpp(131): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+c:\users\abhi\documents\visual studio 2012\projects\tp\tp\maincharacter.cpp(132): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+  FirstRPG.cpp
+  Environment.cpp
+c:\users\abhi\documents\visual studio 2012\projects\tp\tp\environment.cpp(187): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  Sprite.cpp
+  tp.vcxproj -> C:\Users\ABHi\Documents\Visual Studio 2012\Projects\tp\Debug\tp.exe

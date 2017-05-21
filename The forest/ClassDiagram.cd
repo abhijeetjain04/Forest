@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CEnvironment">
+    <Position X="5" Y="2" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="CEnvironment::ModeType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Environment.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQEAQEgAIiAAAAAgAAggAIQAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Environment.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="envi_csdl_setup" />
+      <Field Name="grass" />
+      <Field Name="tree" />
+      <Field Name="trees" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CMain">
+    <Position X="3.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KAAAAAAAAEAAAAgAQQMAAAAAAABAAAECAAABAAAAAAA=</HashCode>
+      <FileName>Main.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="csdl_setup" />
+      <Field Name="main_class_bob" />
+      <Field Name="forestArea" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MainCharacter">
+    <Position X="9.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAEBoAAgAAiAACECAAAAAAAYAAAEAAAAAAAAAECE=</HashCode>
+      <FileName>MainCharacter.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="main_chara_bob" />
+      <Field Name="main_chara_csdl_setup" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CSDL_Setup">
+    <Position X="13.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAEAAAAAAAAQAAAAECAIAAAEAAAAgAA=</HashCode>
+      <FileName>SDL_Setup.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mainEvent" />
+      <Field Name="renderer" />
+      <Field Name="window" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CSprite">
+    <Position X="12.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAQAEABCAGgg4KABAAIABAEAQgAgQAYBISAEAAgAY=</HashCode>
+      <FileName>Sprite.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="camera_rect" />
+      <Field Name="crop" />
+      <Field Name="image" />
+      <Field Name="rect" />
+      <Field Name="renderer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Tree">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAACAAAAAAAgAAABBAAAAAAAAYAAAQAAAYAA=</HashCode>
+      <FileName>Tree.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="crown" />
+      <Field Name="trunk" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="std::vector&lt;_Ty, _Alloc&gt;" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IUoEEIEqCLBMUEBAAKMIAgISAgUESAIAxQEwggAEAAI=</HashCode>
+      <FileName>c:\program files (x86)\microsoft visual studio 11.0\vc\include\vector</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="SDL_Rect" Collapsed="true">
+    <Position X="18" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAhgAAAAAAA=</HashCode>
+      <FileName>c:\users\abhi\downloads\compressed\sdl\sdl_new\sdl2-2.0.5\include\sdl_rect.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="SDL_Event" Collapsed="true">
+    <Position X="19" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\users\abhi\downloads\compressed\sdl\sdl_new\sdl2-2.0.5\include\sdl_events.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SDL_Renderer" Collapsed="true">
+    <Position X="18" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\users\abhi\downloads\compressed\sdl\sdl_new\sdl2-2.0.5\include\sdl_render.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SDL_Window" Collapsed="true">
+    <Position X="17" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\users\abhi\downloads\compressed\sdl\sdl_new\sdl2-2.0.5\include\sdl_video.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SDL_Texture" Collapsed="true">
+    <Position X="17.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\users\abhi\downloads\compressed\sdl\sdl_new\sdl2-2.0.5\include\sdl_render.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
